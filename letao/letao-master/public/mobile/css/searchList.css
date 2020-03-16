@@ -1,0 +1,84 @@
+.listBox .listBox_head{
+    width: 100%;
+}
+.listBox .listBox_head ul{
+    width: 100%;
+    height: 30px;
+    background-color: #eee;
+    padding: 0;
+    margin:10px 0 0 ;
+    position: relative;
+}
+.listBox .listBox_head ul li{
+    width: 25%;
+    height: 30px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+}
+.listBox .listBox_head ul li span{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+}
+
+.listBox .listBox_body{
+    width: 100%;
+    padding:0 15px 15px;
+    display: inline-block;
+}
+.listBox .listBox_body>div{
+    width: 100%;
+}
+
+.listBox .listBox_body>div a img{
+    width: 100%;
+}
+
+.listBox .listBox_body ul{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    padding: 0;
+}
+
+.listBox .listBox_body ul li{
+    width: 49%;
+    float: left;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.listBox .listBox_body ul li:nth-child(2n){
+    float: right;
+}
+.listBox .listBox_body ul li a img{
+    width: 100%;
+}
+.listBox .listBox_body ul li a p{
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    font-size: 12px;
+}
+.listBox .listBox_body ul li a span{
+    color: red;
+}
+.listBox .listBox_body ul li a del{
+    color: #ccc;
+}
+
+.listBox .listBox_body ul li a button{
+    color: #fff;
+    background-color: #006699;
+    text-align: center;
+}
+
+.listBox_now{
+    color: #FE9311;
+}

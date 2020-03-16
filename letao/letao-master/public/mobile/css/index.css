@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*上*/
+.lt_content .lt_weapper .lt_nav{
+    width: 100%;
+    padding: 0 10px;
+}
+.lt_content .lt_weapper .lt_nav ul{
+    width: 100%;
+    height: 300px;
+}
+.lt_content .lt_weapper .lt_nav ul li{
+    float: left;
+    width: 33.33%;
+    height: 50%;
+}
+.lt_content .lt_weapper .lt_nav ul a img{
+    width: 100%;
+    height: 100%;
+}
+/*中*/
+.lt_content .lt_weapper .lt_active{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    border-top:1px solid #ccc ;
+}
+.lt_content .lt_weapper .lt_active ul{
+    width: 100%;
+    height: 300px;
+    padding: 0 10px;
+}
+.lt_content .lt_weapper .lt_active ul li{
+    float: left;
+    width: 35%;
+    height: 50%;
+}
+.lt_content .lt_weapper .lt_active ul li:nth-child(3){
+    float: right;
+    width: 30%;
+    height: 100%;
+}
+.lt_content .lt_weapper .lt_active ul li a img{
+    width: 100%;
+    height: 100%;
+}
+
+/*下*/
+.lt_content .lt_weapper .lt_brand{
+    width: 100%;
+    margin-top: 10px;
+}
+.lt_content .lt_weapper .lt_brand span{
+    display: block;
+    width: 100%;
+}
+.lt_content .lt_weapper .lt_brand span img{
+    width: 100%;
+}
+.lt_content .lt_weapper .lt_brand ul{
+    width: 100%;
+    height: 140px;
+    padding: 0 10px;
+}
+.lt_content .lt_weapper .lt_brand ul li{
+    float: left;
+    width: 25%;
+    line-height: 30px;
+}
+.lt_content .lt_weapper .lt_brand ul li img{
+    width: 100%;
+}
+/*<!--运动生活专区-->*/
+.lt_content .lt_weapper .lt_product span{
+    width: 100%;
+}
+.lt_content .lt_weapper .lt_product span img{
+    width: 100%;
+}
+.lt_content .lt_weapper .lt_product{
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+}
+.lt_content .lt_weapper .lt_product>div{
+    width: 100%;
+}
+
+.lt_content .lt_weapper .lt_product>div a img{
+    width: 100%;
+}
+
+.lt_content .lt_weapper .lt_product ul{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.lt_content .lt_weapper .lt_product ul li{
+    width: 49%;
+    float: left;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.lt_content .lt_weapper .lt_product ul li:nth-child(2n){
+    float: right;
+}
+.lt_content .lt_weapper .lt_product ul li a img{
+    width: 100%;
+}
+.lt_content .lt_weapper .lt_product ul li a p{
+    font-size: 18px;
+}
+.lt_content .lt_weapper .lt_product ul li a span{
+    color: red;
+}
+.lt_content .lt_weapper .lt_product ul li a del{
+    color: #ccc;
+}
+
+.lt_content .lt_weapper .lt_product ul li a button{
+    color: #fff;
+    background-color: #006699;
+    text-align: center;
+}

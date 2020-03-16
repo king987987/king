@@ -1,0 +1,122 @@
+.title{
+    width: 100%;
+    color: #333333;
+    font-size: 12px;
+}
+.info{
+    width: 100%;
+    margin-top: 20px;
+}
+.info .price{
+    color: red;
+}
+.info .oldPrice{
+    color: #666666;
+    font-size: 8px;
+    text-decoration: line-through;
+}
+.info .number{
+    float: right;
+}
+.size{
+    font-size: 10px;
+}
+.mui-slider-handle input{
+    display: block;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 15px;
+}
+
+/*尺码*/
+.drade_size{
+    width: 100%;
+    padding: 5px 0 10px 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 12px;
+}
+.drade_size .btn_size{
+    border: 1px solid #ccc;
+    font-size: 16px;
+    text-align: center;
+    padding: 2px;
+}
+.drade_num{
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.drade_num span{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 7px;
+}
+.drade_num input{
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+.drade_top_btn{
+    position: fixed;
+    bottom: 0;
+    background-color: #E6E6E6;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.drade_top_btn .car{
+    font-size: 20px;
+    width: 15%;
+    color: #333333;
+    text-align: center;
+}
+.drade_top_btn .drade_join{
+    background-color: #991020;
+    color: #fff;
+    border: none;
+    width: 40%;
+    margin-top: 10px;
+}
+.drade_top_btn .drade_buy{
+    background-color: #FA672D;
+    color: #fff;
+    border: none;
+    width: 40%;
+    margin-top: 10px;
+}
+.now{
+    background-color: #F5662C;
+}
+.lt_container .lt_footer a.nowC{
+    color:orange ;
+}
+
+/*订单样式*/
+.lt_container .lt_footer{
+    height: 80px;
+}
+.lt_footer .settleAs{
+    width: 100%;
+    height: 22px;
+    padding: 0 10px;
+    background-color: #fff;
+}
+.lt_footer .settleAs p{
+    float: left;
+    font-size: 12px;
+    color: #F15F3C;
+    margin: 0;
+}
+.lt_footer .settleAs .indentBtn{
+    height: 22px;
+    font-size: 12px;
+    background-color: #F15F3C;
+    line-height:1;
+    color: #fff;
+    float: right;
+}
